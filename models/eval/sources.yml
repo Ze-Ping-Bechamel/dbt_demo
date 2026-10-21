@@ -1,0 +1,14 @@
+version: 3
+
+sources:
+  - name: liora_music
+    database: LIORA_DB
+    schema: PUBLIC
+    tables:
+      - name: Track
+      - name: Album
+      - name: Artist
+      - name: MediaType
+      - name: Genre
+      - name: PlaylistTrack
+      - name: Playlist
